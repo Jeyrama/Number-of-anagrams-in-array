@@ -9,3 +9,6 @@ Examples:
   There are 2 anagrams in the array ["dell", "ledl", "abc", "cba"]
   There are 7 anagrams in the array ["dell", "ledl", "abc", "cba", "bca", "bac"]
 */
+
+
+// Solution
