@@ -26,3 +26,5 @@ function anagramCounter(arrayOfWords){
   })
   return numberOfAnagrams
 }
+
+// or
