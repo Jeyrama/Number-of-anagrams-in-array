@@ -28,3 +28,17 @@ function anagramCounter(arrayOfWords){
 }
 
 // or
+
+function anagramCounter (wordsArray) {
+  let counter = 0;
+  let wordSorted = wordsArray.map(function(word){
+    word = word.split("").sort().join("");
+    return word;
+  })
+  for (let i = 0; i < wordSorted.length; i++){
+    for (let j = i; j < wordSorted.length; j++) {
+      if(wordSorted[i] === wordSorted[j+1]) counter++
+    };
+  };
+  return counter;
+}
